@@ -39,13 +39,13 @@ Text is converted into numerical vectors using **Term Frequency-Inverse Document
 ## 🤖 Models Used
 Several machine learning models were trained and evaluated:
 
-Logistic Regression
+### Logistic Regression
 
-Naive Bayes
+### Naive Bayes
 
-Support Vector Machine (SVM)
+### Support Vector Machine (SVM)
 
-Random Forest
+### Random Forest
 
 Each model was evaluated using:
 
@@ -56,13 +56,13 @@ Precision, Recall, F1-score (via classification_report)
 ## 🧠 Explainable AI (XAI)
 To interpret and explain the model's predictions, two XAI frameworks were used:
 
-✅ SHAP (SHapley Additive Explanations)
+### ✅ SHAP (SHapley Additive Explanations)
 Provides global and local explanations for model behavior
 
 SHAP summary plots highlight the most influential words in predictions
 
 Waterfall plots show word-level contributions in individual emails
-✅ LIME (Local Interpretable Model-Agnostic Explanations)
+### ✅ LIME (Local Interpretable Model-Agnostic Explanations)
 Explains model decisions per email
 
 Useful to visualize which words led to a phishing or legit classification
