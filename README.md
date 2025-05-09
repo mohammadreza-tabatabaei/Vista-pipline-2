@@ -39,13 +39,13 @@ Text is converted into numerical vectors using **Term Frequency-Inverse Document
 ## 🤖 Models Used
 Several machine learning models were trained and evaluated:
 
-### Logistic Regression
+Logistic Regression
 
-### Naive Bayes
+Naive Bayes
 
-### Support Vector Machine (SVM)
+Support Vector Machine (SVM)
 
-### Random Forest
+Random Forest
 
 Each model was evaluated using:
 
